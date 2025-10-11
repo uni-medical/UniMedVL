@@ -1,5 +1,4 @@
-# UniMedVL: An Observation-Knowledge-Analysis Oriented Medical Unified Multimodal Understanding 
-and Generation Model
+# UniMedVL: Unifying Medical Multimodal Understanding and Generation through Observation-Knowledge-Analysis
 
 <div align="center">
 
