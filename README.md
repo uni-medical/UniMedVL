@@ -100,7 +100,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
   </div>
 </details>
 
-<details close>
+<details open>
   <summary>Medical Visual Question Answering</summary>
   <div align="center">
     <img src="images/visual_question_answering.png" alt="Medical VQA Examples" width="100%">
@@ -108,7 +108,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
   </div>
 </details>
 
-<details close>
+<details open>
   <summary>Medical Report Generation</summary>
   <div align="center">
     <img src="images/reportgeneration.png" alt="Medical Report Generation" width="100%">
@@ -116,7 +116,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
   </div>
 </details>
 
-<details close>
+<details open>
   <summary>Text-to-Medical-Image Generation</summary>
   <div align="center">
     <img src="images/text2img1.png" alt="Text-to-Image Generation Examples 1" width="100%">
@@ -128,7 +128,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
   </div>
 </details>
 
-<details close>
+<details open>
   <summary> Medical-Image Generation across 8 modalities </summary>
 
  
@@ -191,7 +191,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 </details>
 
 
-<details close>
+<details open>
   <summary>Medical Image Generation Benchmarks</summary>
 
 *Text-to-image generation performance across 8 medical imaging modalities. Metrics: gFID ↓ (lower is better) / BioMedCLIP Score ↑ (higher is better)*
@@ -203,7 +203,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 
 </details>
 
-<details close>
+<details open>
   <summary>Interleaved Multimodal Tasks Performance</summary>
 
 **Virtual Immunohistochemistry Staining (H&E → IHC)**
@@ -232,7 +232,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 
 </details>
 
-<details close>
+<details open>
   <summary>Counterfactual Medical Image Generation</summary>
 
 *Performance on counterfactual chest X-ray generation with explanatory text. † indicates unified fine-tuning variant.*
