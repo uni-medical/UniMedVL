@@ -1,5 +1,5 @@
 <p align="center">
- <img src="./images/logo.png" width="20%"/>
+ <img src="./images/logo.png" width="50px" height="50px"/>
 </p>
 
 <div align="center">
@@ -128,6 +128,53 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
   </div>
 </details>
 
+<details close>
+  <summary> Medical-Image Generation across 8 modalities </summary>
+
+ 
+
+### Chest X-Ray (CXR)
+<div align="center">
+  <img src="images/cxr.png" alt="Chest X-Ray" width="80%">
+</div>
+
+### Computed Tomography (CT)
+<div align="center">
+  <img src="images/ct.png" alt="CT Scan" width="80%">
+</div>
+
+### Magnetic Resonance Imaging (MRI)
+<div align="center">
+  <img src="images/mri.png" alt="MRI Scan" width="80%">
+</div>
+
+### Ultrasound
+<div align="center">
+  <img src="images/ultrasound.png" alt="Ultrasound" width="80%">
+</div>
+
+### Histopathology (HIS)
+<div align="center">
+  <img src="images/his.png" alt="Histopathology" width="80%">
+</div>
+
+### Retinal Fundus Photography (CFP)
+<div align="center">
+  <img src="images/retinal.png" alt="Retinal Fundus" width="80%">
+</div>
+
+### Optical Coherence Tomography (OCT)
+<div align="center">
+  <img src="images/oct.png" alt="OCT" width="80%">
+</div>
+
+### Endoscopy
+<div align="center">
+  <img src="images/endoscopy.png" alt="Endoscopy" width="80%">
+</div>
+
+</details>
+
 ## 📊 Quantitative Performance
 
 <details open>
@@ -197,6 +244,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 
 </details>
 
+---
 
 ## 📜 License
 
