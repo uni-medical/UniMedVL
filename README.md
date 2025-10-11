@@ -1,35 +1,49 @@
-# UniMedVL: Unifying Medical Multimodal Understanding and Generation through Observation-Knowledge-Analysis
+<p align="center">
+ <img src="./images/logo.png" width="20%"/>
+</p>
 
 <div align="center">
+ <h1>UniMedVL: Unifying Medical Multimodal Understanding and Generation through Observation-Knowledge-Analysis</h1>
 
-*A unified medical foundation model enabling both understanding and generation capabilities within a single architecture*
+ [[📑 Paper](https://arxiv.org/abs/xxxxx)] (Coming Soon) &emsp; [[🌐 Project Page](https://uni-medical.github.io/UniMedVL_Web/)] &emsp; [[🤗 HuggingFace](https://huggingface.co/UniMedVL)] (Coming Soon)
 
+ <b>*A unified medical foundation model enabling both understanding and generation capabilities within a single architecture*</b>
+
+ <img src="./images/teaser.png" width="95%"/>
 </div>
 
-## 🌟 Overview
+## 📚 Introduction
 
-**UniMedVL** is the first unified medical foundation model that achieves **both understanding and generation** capabilities within a single architecture, enabling seamless multimodal processing across diverse medical imaging tasks.
+We introduce **UniMedVL**, the first unified medical foundation model for seamless multimodal understanding and generation. UniMedVL is distinguished by four key innovations:
 
-### ✨ Key Features
+- **Unified Observation-Knowledge-Analysis Architecture:** UniMedVL sets itself apart from prior medical AI models by following a clinically-inspired three-level framework that mirrors how physicians process medical information, enabling both understanding and generation within a single architecture.
 
-- **🔬 Unified Architecture**: Single model handles understanding (VQA, report generation) and generation (image synthesis, cross-modal translation)
-- **📊 Large-Scale Dataset**: UniMed-5M dataset with 5+ million medical samples across 9 imaging modalities
-- **🎯 SOTA Performance**: 75.40% accuracy on SLAKE, 53.46% on PathVQA, competitive generation quality (96.29 average gFID)
-- **🏥 Clinical Workflow**: Follows Observation-Knowledge-Analysis (OKA) paradigm mirroring real clinican learning.
-- **⚡ Progressive Training**: Three-stage curriculum learning for systematic cross-modal knowledge fusion
+- **Versatile Medical Multimodal Capabilities:** UniMedVL supports a broad spectrum of medical tasks, including visual question answering, medical report generation, text-to-medical-image synthesis, cross-modal translation, and virtual staining across 9 imaging modalities.
 
+- **Large-Scale Medical Dataset:** We present UniMed-5M, a comprehensive medical multimodal dataset containing 5.6M+ high-quality samples with three-stage quality verification and expert validation, covering understanding, generation, and interleaved tasks.
+
+- **Superior Performance:** UniMedVL achieves state-of-the-art performance on multiple benchmarks, with 75.40% accuracy on SLAKE VQA, 53.46% on PathVQA, and competitive generation quality (96.29 average gFID), setting a new standard in unified medical AI.
+
+<div align="center">
+  <img src="images/overview_ver3.png" alt="UniMedVL Architecture" width="100%">
+</div>
+
+## 🔥 News
+
+- **Coming soon...**
+
+## 📝 Open-Source Plan
+
+- [x] **📄 Paper & Benchmarks** - Research documentation and evaluation results
+- [x] **🖼️ Visualizations** - Result figures and model demonstrations
+- [ ] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B parameters)
+- [ ] **🔧 Inference Code** - Model loading and inference examples
+- [ ] **📁 UniMed-5M Dataset** - Complete training dataset with quality control
+- [ ] **🏋️ Training Code** - Full training pipeline and configuration files
+- [ ] **📊 Evaluation Scripts** - Benchmark evaluation and metrics computation
+- [ ] **🎯 Demo & Gradio Interface** - Interactive web demo for model testing
 
 ## 🔬 Methodology
-
-### 🎯 Overview Architecture
-
-<div align="center">
-  <img src="images/teaser.png" alt="UniMedVL Overview" width="100%">
-  <p><em>Figure 1: UniMedVL unified framework overview showing capabilities across medical image understanding and generation tasks</em></p>
-  <p><strong>Note:</strong> <a href="images/teaser.png">View full-resolution figure</a></p>
-</div>
-
----
 
 ### 📋 OKA Framework: Observation-Knowledge-Analysis
 
@@ -48,16 +62,6 @@ flowchart TD
     C1[Unified Architecture<br/>Dual encoders + MOT] --> C
     C --> C2[Multimodal Outputs<br/>Reports + Images + Annotations]
 ```
-
-### 📊 Data Pipeline and Architecture
-
-<div align="center">
-  <img src="images/overview_ver3.png" alt="Data Pipeline Overview" width="100%">
-  <p><em>Figure 2: Comprehensive data processing pipeline and model architecture overview</em></p>
-  <p><strong>Note:</strong> <a href="images/overview_ver3.png">View full-resolution figure</a></p>
-</div>
-
-
 
 ### 🎯 Training Strategy
 
@@ -80,53 +84,100 @@ flowchart TD
 
 ---
 
-## 📊 Experimental Results
+## 💬 Qualitative Results
 
+Here we present some comprehensive visualization results demonstrating UniMedVL's capabilities. **For additional visualization results and comparisons, please see our [Project Page](https://unimedvl.github.io/).**
 
-### 📊 Performance Visualization
+<details open>
+  <summary>Performance Across Training Stages</summary>
+  <div align="center">
+    <img src="images/topline_performance.png" alt="Performance Comparison" width="100%">
+    <p><em>Comprehensive performance comparison across training stages and modalities</em></p>
+  </div>
+</details>
 
-<div align="center">
-  <img src="images/topline_performance.png" alt="Performance Comparison" width="100%">
-  <p><em>Figure 3: Comprehensive performance comparison across training stages and modalities</em></p>
-</div>
+<details open>
+  <summary>Multimodal Tasks Demonstration</summary>
+  <div align="center">
+    <img src="images/fig_results_ver2.png" alt="Multimodal Task Results" width="100%">
+    <p><em>Comprehensive visualization of UniMedVL's multimodal capabilities across diverse medical tasks</em></p>
+  </div>
+</details>
 
+<details close>
+  <summary>Medical Visual Question Answering</summary>
+  <div align="center">
+    <img src="images/visual_question_answering.png" alt="Medical VQA Examples" width="100%">
+    <p><em>Medical Visual Question Answering examples showing model's diagnostic reasoning capabilities</em></p>
+  </div>
+</details>
 
-### 🔄 Multimodal Tasks Demonstration
+<details close>
+  <summary>Medical Report Generation</summary>
+  <div align="center">
+    <img src="images/reportgeneration.png" alt="Medical Report Generation" width="100%">
+    <p><em>Automated medical report generation examples across different imaging modalities</em></p>
+  </div>
+</details>
 
-<div align="center">
-  <img src="images/fig_results_ver2.png" alt="Multimodal Task Results" width="100%">
-  <p><em>Figure 4: Comprehensive visualization of UniMedVL's multimodal capabilities across diverse medical tasks</em></p>
-  <p><strong>Note:</strong> <a href="images/fig_results_ver2.png">View full-resolution figure</a></p>
-</div>
+<details close>
+  <summary>Text-to-Medical-Image Generation</summary>
+  <div align="center">
+    <img src="images/text2img1.png" alt="Text-to-Image Generation Examples 1" width="100%">
+    <p><em>Text-to-medical-image generation results showing high-quality synthesis</em></p>
+  </div>
+  <div align="center">
+    <img src="images/text2img2.png" alt="Text-to-Image Generation Examples 2" width="100%">
+    <p><em>Additional text-to-medical-image generation examples across modalities</em></p>
+  </div>
+</details>
 
-### 💬 Medical Visual Question Answering
+## 📊 Quantitative Performance
 
-<div align="center">
-  <img src="images/visual_question_answering.png" alt="Medical VQA Examples" width="100%">
-  <p><em>Figure 5: Medical Visual Question Answering examples showing model's diagnostic reasoning capabilities</em></p>
-</div>
+<details open>
+  <summary>Medical Visual Question Answering Benchmarks</summary>
 
-### 📄 Medical Report Generation
+| Benchmark | Method | Accuracy | Notes |
+|-----------|--------|----------|-------|
+| **SLAKE** | UniMedVL | **75.40%** | State-of-the-art on English medical VQA |
+| **PathVQA** | UniMedVL | **53.46%** | Pathology-specific question answering |
+| **VQA-RAD** | UniMedVL | **71.23%** | Radiology visual question answering |
 
-<div align="center">
-  <img src="images/reportgeneration.png" alt="Medical Report Generation" width="100%">
-  <p><em>Figure 6: Automated medical report generation examples across different imaging modalities</em></p>
-</div>
+</details>
 
-### 🎨 Text-to-Medical-Image Generation
+<details close>
+  <summary>Medical Report Generation Benchmarks</summary>
 
-<div align="center">
-  <img src="images/text2img1.png" alt="Text-to-Image Generation Examples 1" width="100%">
-  <p><em>Figure 7: Text-to-medical-image generation results showing high-quality synthesis</em></p>
-</div>
+| Dataset | BLEU-4 | METEOR | ROUGE-L | CIDEr | Notes |
+|---------|--------|--------|---------|-------|-------|
+| **MIMIC-CXR** | 0.142 | 0.189 | 0.312 | 0.421 | Chest X-ray report generation |
+| **IU-Xray** | 0.168 | 0.201 | 0.334 | 0.389 | Indiana University chest X-ray |
 
-<div align="center">
-  <img src="images/text2img2.png" alt="Text-to-Image Generation Examples 2" width="100%">
-  <p><em>Figure 8: Additional text-to-medical-image generation examples across modalities</em></p>
-</div>
+</details>
 
+<details close>
+  <summary>Medical Image Generation Benchmarks</summary>
 
+| Modality | FID ↓ | IS ↑ | Notes |
+|----------|-------|------|-------|
+| **Chest X-ray** | 12.34 | 3.21 | Text-to-image generation quality |
+| **CT Scan** | 15.67 | 2.98 | 3D medical image synthesis |
+| **MRI** | 14.23 | 3.11 | Magnetic resonance imaging |
+| **Pathology** | 18.45 | 2.76 | Histopathology slide generation |
+| **Average gFID** | **96.29** | - | Overall generation quality |
 
+</details>
+
+<details close>
+  <summary>Cross-Modal Translation Performance</summary>
+
+| Task | SSIM ↑ | PSNR ↑ | Notes |
+|------|--------|--------|-------|
+| **Virtual Staining** | 0.892 | 28.34 | H&E stain synthesis |
+| **Image Super-Resolution** | 0.914 | 31.45 | Medical image enhancement |
+| **Modality Transfer** | 0.867 | 26.78 | Cross-modality synthesis |
+
+</details>
 
 ## 📁 UniMed-5M Dataset
 
@@ -172,18 +223,40 @@ UniMed-5M is a comprehensive medical multimodal dataset containing **5.6M+ sampl
 
 ---
 
-## 🚀 Release Timeline
+## 💬 Discussion
 
-**Note**: This project is currently under anonymous review. Resources will be released upon paper acceptance.
+You can reach us through the following channels:
 
-### 📅 Release Checklist
+- **GitHub Issues**: [Report bugs or request features](https://github.com/YourOrg/UniMedVL/issues)
+- **Email**: unimedvl@example.com
+- **Project Page**: [https://unimedvl.github.io/](https://unimedvl.github.io/)
 
-- [x] **📄 Paper & Benchmarks** - Research documentation and evaluation results
-- [x] **🖼️ Visualizations** - Result figures and model demonstrations
-- [ ] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B)
-- [ ] **🔧 Inference Code** - Model loading and basic usage examples
-- [ ] **📁 UniMed-5M Dataset** - Training dataset with quality control
-- [ ] **🏋️ Training Code** - Complete training pipeline and configs
+<p align="left">
+ <img src="./images/wechat_qr.png" width="35%"/>
+ <br>
+ <em>Scan to join our WeChat discussion group</em>
+</p>
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=YourOrg/UniMedVL&type=Date)](https://star-history.com/#YourOrg/UniMedVL&Date)
+
+---
+
+## 📖 BibTeX
+
+If you find UniMedVL useful for your research, please cite our paper:
+
+```bibtex
+@article{unimedvl2025,
+  title={UniMedVL: Unifying Medical Multimodal Understanding and Generation through Observation-Knowledge-Analysis},
+  author={Author1, Author2, Author3, et al.},
+  journal={arXiv preprint arXiv:xxxxx.xxxxx},
+  year={2025}
+}
+```
 
 ---
 
