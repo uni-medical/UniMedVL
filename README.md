@@ -22,7 +22,7 @@ We introduce **UniMedVL**, the first unified medical foundation model for seamle
 
 - **Large-Scale Medical Dataset:** We present UniMed-5M, a comprehensive medical multimodal dataset containing 5.6M+ high-quality samples with three-stage quality verification and expert validation, covering understanding, generation, and interleaved tasks.
 
-- **Superior Performance:** UniMedVL achieves state-of-the-art performance on multiple benchmarks, with 75.4% accuracy on SLAKE VQA, 53.5% on PathVQA, and competitive generation quality (96.29 average gFID), setting a new standard in unified medical AI.
+- **Superior Performance:** UniMedVL achieves state-of-the-art performance on multiple evaluation datasets, with 75.4% accuracy on SLAKE VQA, 53.5% on PathVQA, and competitive generation quality (96.29 average gFID), setting a new standard in unified medical AI.
 
 <div align="center">
   <img src="images/overview_ver3.png" alt="UniMedVL Architecture" width="100%">
@@ -30,13 +30,13 @@ We introduce **UniMedVL**, the first unified medical foundation model for seamle
 
 ## 📝 Open-Source Plan
 
-- [x] **📄 Paper & Benchmarks** - Research documentation and evaluation results
+- [x] **📄 Paper & Evaluations** - Research documentation and evaluation results
 - [x] **🖼️ Visualizations** - Result figures and model demonstrations
 - [ ] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B parameters)
 - [ ] **🔧 Inference Code** - Model loading and inference examples
 - [ ] **📁 UniMed-5M Dataset** - Complete training dataset with quality control
 - [ ] **🏋️ Training Code** - Full training pipeline and configuration files
-- [ ] **📊 Evaluation Scripts** - Benchmark evaluation and metrics computation
+- [ ] **📊 Evaluation Scripts** - Performance evaluation and metrics computation
 - [ ] **🎯 Demo & Gradio Interface** - Interactive web demo for model testing
 
 ## 🔬 Methodology
@@ -178,7 +178,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 ## 📊 Quantitative Performance
 
 <details open>
-  <summary>Medical Visual Question Answering Benchmarks</summary>
+  <summary>Medical Visual Question Answering Performance</summary>
 
 | Model | Params | Type | VQA-RAD | SLAKE | PathVQA | OmniMedVQA | GMAI-MMBench |
 |-------|--------|------|---------|-------|---------|------------|--------------|
@@ -192,7 +192,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 
 
 <details open>
-  <summary>Medical Image Generation Benchmarks</summary>
+  <summary>Medical Image Generation Performance</summary>
 
 *Text-to-image generation performance across 8 medical imaging modalities. Metrics: gFID ↓ (lower is better) / BioMedCLIP Score ↑ (higher is better)*
 
