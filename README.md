@@ -35,13 +35,13 @@ We introduce **UniMedVL**, the unified medical foundation model for seamless mul
 - [ ] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B parameters)
 - [ ] **🔧 Inference Code** - Model loading and inference examples
 - [ ] **🏋️ Training Code** - Full training pipeline and configuration files
-- [ ] **📁 UniMed-5M Dataset** - Complete training dataset with quality control
+- [ ] **📁 UniMed-5M Dataset** - Training dataset with quality control
 
 ## 🔬 Methodology
 
 ### 📋 OKA Framework: Observation-Knowledge-Analysis
 
-UniMedVL follows a clinical workflow-guided three-level framework that mirrors how physicians process medical information:
+UniMedVL follows a workflow-guided three-level framework that mirrors how physicians process medical information:
 
 ```mermaid
 flowchart TD
