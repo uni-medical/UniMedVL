@@ -14,7 +14,7 @@
 
 ## 📚 Introduction
 
-We introduce **UniMedVL**, the first unified medical foundation model for seamless multimodal understanding and generation. UniMedVL is distinguished by four key innovations:
+We introduce **UniMedVL**, the unified medical foundation model for seamless multimodal understanding and generation. Four key innovations distinguish UniMedVL:
 
 - **Unified Observation-Knowledge-Analysis Architecture:** UniMedVL sets itself apart from prior medical AI models by following a clinically-inspired three-level framework that mirrors how physicians process medical information, enabling both understanding and generation within a single architecture.
 
@@ -34,10 +34,8 @@ We introduce **UniMedVL**, the first unified medical foundation model for seamle
 - [x] **🖼️ Visualizations** - Result figures and model demonstrations
 - [ ] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B parameters)
 - [ ] **🔧 Inference Code** - Model loading and inference examples
-- [ ] **📁 UniMed-5M Dataset** - Complete training dataset with quality control
 - [ ] **🏋️ Training Code** - Full training pipeline and configuration files
-- [ ] **📊 Evaluation Scripts** - Performance evaluation and metrics computation
-- [ ] **🎯 Demo & Gradio Interface** - Interactive web demo for model testing
+- [ ] **📁 UniMed-5M Dataset** - Complete training dataset with quality control
 
 ## 🔬 Methodology
 
