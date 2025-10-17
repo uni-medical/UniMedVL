@@ -248,7 +248,6 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
 
-**Note**: This project is currently under anonymous review. Code, model weights, and dataset will be released upon paper acceptance.
 
 ---
 
@@ -258,5 +257,4 @@ We sincerely thank the following projects and their contributors for their inval
 
 - **[Bagel](https://github.com/ByteDance-Seed/Bagel)** - Foundation model architecture and training methodology inspiration
 - **[HealthGPT](https://github.com/DCDmllm/HealthGPT)** - Medical domain adaptation and evaluation framework
-- **[REPA-E](https://github.com/End2End-Diffusion/REPA-E)** - End-to-end VAE architecture and diffusion model integration
 - **[VLMEvalKit](https://github.com/open-compass/VLMEvalKit)** - Comprehensive evaluation toolkit for vision-language models
