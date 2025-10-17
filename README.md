@@ -47,7 +47,7 @@ UniMedVL follows a workflow-guided three-level framework that mirrors how physic
 flowchart TD
     A[Observation Level] --> B[Knowledge Level] --> C[Analysis Level]
 
-    A1[UniMed-5M Dataset<br/>5.6M samples<br/>9 imaging modalities] --> A
+    A1[UniMed-5M Dataset<br/>5.6M samples<br/>8 imaging modalities] --> A
     A --> A2[Quality Control<br/>Three-stage verification<br/>Expert validation]
 
     B1[Progressive Curriculum<br/>Foundation → Instruction → Unified] --> B
