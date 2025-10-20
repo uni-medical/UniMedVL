@@ -32,7 +32,7 @@ We introduce **UniMedVL**, the unified medical foundation model for seamless mul
 
 - [x] **📄 Paper & Evaluations** - Research documentation and evaluation results
 - [x] **🖼️ Visualizations** - Result figures and model demonstrations
-- [ ] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B parameters)
+- [x] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B parameters)
 - [ ] **🔧 Inference Code** - Model loading and inference examples
 - [ ] **🏋️ Training Code** - Full training pipeline and configuration files
 - [ ] **📁 UniMed-5M Dataset** - Training dataset with quality control
