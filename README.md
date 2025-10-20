@@ -5,7 +5,7 @@
 <div align="center">
  <h1>UniMedVL: Unifying Medical Multimodal Understanding and Generation through Observation-Knowledge-Analysis</h1>
 
- [[📑 Paper](https://arxiv.org/abs/xxxxx)] (Coming Soon) &emsp; [[🌐 Project Page](https://uni-medical.github.io/UniMedVL_Web/)] &emsp; [[🤗 HuggingFace](https://huggingface.co/General-Medical-AI/UniMedVL)]
+ [[📑 Paper](https://arxiv.org/abs/2510.15710)] &emsp; [[🌐 Project Page](https://uni-medical.github.io/UniMedVL_Web/)] &emsp; [[🤗 HuggingFace](https://huggingface.co/General-Medical-AI/UniMedVL)]
 
  <b>*A unified medical foundation model enabling both understanding and generation capabilities within a single architecture*</b>
 
