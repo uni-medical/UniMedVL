@@ -3,14 +3,43 @@
 </p>
 
 <div align="center">
- <h1>UniMedVL: Unifying Medical Multimodal Understanding and Generation through Observation-Knowledge-Analysis</h1>
-
- [[📑 Paper](https://arxiv.org/abs/2510.15710)] &emsp; [[🌐 Project Page](https://uni-medical.github.io/UniMedVL_Web/)] &emsp; [[🤗 HuggingFace](https://huggingface.co/General-Medical-AI/UniMedVL)]
-
- <b>*A unified medical foundation model enabling both understanding and generation capabilities within a single architecture*</b>
-
- <img src="./images/teaser.png" width="95%"/>
+  <a href="https://uni-medical.github.io/UniMedVL_Web/" target="_blank">
+    <img alt="Project Page" src="https://img.shields.io/badge/🌐_Project-Page-blue" />
+  </a>
+  <a href="https://huggingface.co/General-Medical-AI/UniMedVL" target="_blank">
+    <img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-UniMedVL-ffc107?color=ffc107&logoColor=white" />
+  </a>
 </div>
+
+<div align="center">
+  <a href="https://github.com/uni-medical/UniMedVL" target="_blank">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/uni-medical/UniMedVL?style=social" />
+  </a>
+  <a href="https://arxiv.org/abs/2510.15710" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2510.15710-b31b1b.svg" />
+  </a>
+</div>
+
+<p align="center">
+  <a href="https://github.com/uni-medical/UniMedVL"><b>🌟 Github</b></a> |
+  <a href="https://huggingface.co/General-Medical-AI/UniMedVL"><b>📥 Model Download</b></a> |
+  <a href="https://arxiv.org/abs/2510.15710"><b>📄 Paper Link</b></a> |
+  <a href="https://uni-medical.github.io/UniMedVL_Web/"><b>🌐 Project Page</b></a>
+</p>
+
+<h1>
+<p align="center">
+  UniMedVL: Unifying Medical Multimodal Understanding and Generation through Observation-Knowledge-Analysis
+</p>
+</h1>
+
+<p align="center">
+  <b>A unified medical foundation model enabling both understanding and generation capabilities within a single architecture</b>
+</p>
+
+<p align="center">
+ <img src="./images/teaser.png" width="95%"/>
+</p>
 
 ## 📚 Introduction
 
