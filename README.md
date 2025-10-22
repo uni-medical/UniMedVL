@@ -290,9 +290,9 @@ Two interactive inference scripts are provided in the `codes/` directory:
 2. **Medical Image Generation** (`interactive_image_generator.py`)
 
 ### Quick Usage
-1. Download the UniMedVL checkpoint (will be released upon paper acceptance)
+1. Download the UniMedVL checkpoint 
 2. Set `model_path` and `ROOT` in the script configuration
-3. Run the script: `python codes/interactive_vqa_inferencer.py`
+3. Run the script: `python codes/interactive_vqa_inferencer.py` or `python codes/interactive_image_generator.py`
 
 
 ---
