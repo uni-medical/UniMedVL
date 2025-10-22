@@ -62,7 +62,7 @@ We introduce **UniMedVL**, the unified medical foundation model for seamless mul
 - [x] **📄 Paper & Evaluations** - Research documentation and evaluation results
 - [x] **🖼️ Visualizations** - Result figures and model demonstrations
 - [x] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B parameters)
-- [ ] **🔧 Inference Code** - Model loading and inference examples
+- [x] **🔧 Inference Code** - Model loading and inference examples
 - [ ] **🏋️ Training Code** - Full training pipeline and configuration files
 - [ ] **📁 UniMed-5M Dataset** - Training dataset with quality control
 
@@ -270,6 +270,30 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 | **UniMedVL†** | **27.17** | **0.797** | **0.873** | **0.264** | **0.449** | **0.465** |
 
 </details>
+
+
+---
+
+## 🚀 Getting Started
+
+### Installation
+```bash
+conda env create -f codes/environment.yaml
+conda activate unimedvl
+```
+
+### Inference Scripts
+Two interactive inference scripts are provided in the `codes/` directory:
+
+1. **Medical Visual Question Answering** (`interactive_vqa_inferencer.py`)
+
+2. **Medical Image Generation** (`interactive_image_generator.py`)
+
+### Quick Usage
+1. Download the UniMedVL checkpoint (will be released upon paper acceptance)
+2. Set `model_path` and `ROOT` in the script configuration
+3. Run the script: `python codes/interactive_vqa_inferencer.py`
+
 
 ---
 
