@@ -484,7 +484,7 @@ def _load_model_cpu_optimized0(args):
 
 
 def build_transform():
-    with open("/inspire/hdd/global_user/hejunjun-24017/junzhin/projects/medical_unified_project/src/Bagel-main/data/configs/example.yaml", "r") as f:
+    with open("codes/data/default.yaml", "r") as f:
         data_config = yaml.safe_load(f)
 
     max_image_size = data_config['vlm_sft']['image_transform_args']['max_image_size']
