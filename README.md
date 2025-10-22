@@ -109,7 +109,7 @@ flowchart TD
 
 ## 💬 Qualitative Results
 
-Here we present some comprehensive visualization results demonstrating UniMedVL's capabilities. **For additional visualization results and comparisons, please see our [Project Page](https://unimedvl.github.io/).**
+Here we present some comprehensive visualization results demonstrating UniMedVL's capabilities. **For additional visualization results and comparisons, please see our [Project Page](https://uni-medical.github.io/UniMedVL_Web/).**
 
 <details open>
   <summary>Performance Across Training Stages</summary>
@@ -301,6 +301,22 @@ Two interactive inference scripts are provided in the `codes/` directory:
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
 
+---
+
+## 📚 Citations
+
+If you use this project in your research or work, please cite it as:
+
+```bibtex
+ @misc{ning2025unimedvlunifyingmedicalmultimodal,
+      title={Unimedvl: Unifying Medical Multimodal Understanding And Generation Through Observation-Knowledge-Analysis}, 
+      author={Junzhi Ning and Wei Li and Cheng Tang and Jiashi Lin and Chenglong Ma and Chaoyang Zhang and Jiyao Liu and Ying Chen and Shujian Gao and Lihao Liu and Yuandong Pu and Huihui Xu and Chenhui Gou and Ziyan Huang and Yi Xin and Qi Qin and Zhongying Deng and Diping Song and Bin Fu and Guang Yang and Yuanfeng Ji and Tianbin Li and Yanzhou Su and Jin Ye and Shixiang Tang and Ming Hu and Junjun He},
+      year={2025},
+      eprint={2510.15710},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.15710}, 
+```
 
 ---
 
