@@ -315,7 +315,8 @@ If you use this project in your research or work, please cite it as:
       eprint={2510.15710},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.15710}, 
+      url={https://arxiv.org/abs/2510.15710},
+}
 ```
 
 ---
