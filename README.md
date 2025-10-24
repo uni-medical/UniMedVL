@@ -38,7 +38,7 @@
 </p>
 
 <p align="center">
- <img src="./images/teaser.png" width="95%"/>
+ <img src="./images/teaser.jpg" width="95%"/>
 </p>
 
 ## 📚 Introduction
@@ -54,7 +54,7 @@ We introduce **UniMedVL**, the unified medical foundation model for seamless mul
 - **Superior Performance:** UniMedVL achieves state-of-the-art performance on multiple evaluation datasets, with 75.4% accuracy on SLAKE VQA, 53.5% on PathVQA, and competitive generation quality (96.29 average gFID), setting a new standard in unified medical AI.
 
 <div align="center">
-  <img src="images/overview_ver3.png" alt="UniMedVL Architecture" width="100%">
+  <img src="images/overview_ver3.jpg" alt="UniMedVL Architecture" width="100%">
 </div>
 
 ## 📝 Open-Source Plan
@@ -114,7 +114,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 <details open>
   <summary>Performance Across Training Stages</summary>
   <div align="center">
-    <img src="images/topline_performance.png" alt="Performance Comparison" width="100%">
+    <img src="images/topline_performance.jpg" alt="Performance Comparison" width="100%">
     <p><em>Comprehensive performance comparison across training stages and modalities</em></p>
   </div>
 </details>
@@ -122,7 +122,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 <details open>
   <summary>Multimodal Tasks Demonstration</summary>
   <div align="center">
-    <img src="images/fig_results_ver2.png" alt="Multimodal Task Results" width="100%">
+    <img src="images/fig_results_ver2.jpg" alt="Multimodal Task Results" width="100%">
     <p><em>Comprehensive visualization of UniMedVL's multimodal capabilities across diverse medical tasks</em></p>
   </div>
 </details>
@@ -130,7 +130,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 <details open>
   <summary>Medical Visual Question Answering</summary>
   <div align="center">
-    <img src="images/visual_question_answering.png" alt="Medical VQA Examples" width="60%">
+    <img src="images/visual_question_answering.jpg" alt="Medical VQA Examples" width="60%">
     <p><em>Medical Visual Question Answering examples showing model's diagnostic reasoning capabilities</em></p>
   </div>
 </details>
@@ -138,7 +138,7 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 <details open>
   <summary>Medical Report Generation</summary>
   <div align="center">
-    <img src="images/reportgeneration.png" alt="Medical Report Generation" width="60%">
+    <img src="images/reportgeneration.jpg" alt="Medical Report Generation" width="60%">
     <p><em>Automated medical report generation examples across different imaging modalities</em></p>
   </div>
 </details>
@@ -146,11 +146,11 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 <details open>
   <summary>Text-to-Medical-Image Generation</summary>
   <div align="center">
-    <img src="images/text2img1.png" alt="Text-to-Image Generation Examples 1" width="60%">
+    <img src="images/text2img1.jpg" alt="Text-to-Image Generation Examples 1" width="60%">
     <p><em>Text-to-medical-image generation results showing high-quality synthesis</em></p>
   </div>
   <div align="center">
-    <img src="images/text2img2.png" alt="Text-to-Image Generation Examples 2" width="60%">
+    <img src="images/text2img2.jpg" alt="Text-to-Image Generation Examples 2" width="60%">
     <p><em>Additional text-to-medical-image generation examples across modalities</em></p>
   </div>
 </details>
@@ -162,42 +162,42 @@ Here we present some comprehensive visualization results demonstrating UniMedVL'
 
 ### Chest X-Ray (CXR)
 <div align="center">
-  <img src="images/cxr.png" alt="Chest X-Ray" width="60%">
+  <img src="images/cxr.jpg" alt="Chest X-Ray" width="60%">
 </div>
 
 ### Computed Tomography (CT)
 <div align="center">
-  <img src="images/ct.png" alt="CT Scan" width="60%">
+  <img src="images/ct.jpg" alt="CT Scan" width="60%">
 </div>
 
 ### Magnetic Resonance Imaging (MRI)
 <div align="center">
-  <img src="images/mri.png" alt="MRI Scan" width="60%">
+  <img src="images/mri.jpg" alt="MRI Scan" width="60%">
 </div>
 
 ### Ultrasound
 <div align="center">
-  <img src="images/ultrasound.png" alt="Ultrasound" width="60%">
+  <img src="images/ultrasound.jpg" alt="Ultrasound" width="60%">
 </div>
 
 ### Histopathology (HIS)
 <div align="center">
-  <img src="images/his.png" alt="Histopathology" width="60%">
+  <img src="images/his.jpg" alt="Histopathology" width="60%">
 </div>
 
 ### Retinal Fundus Photography (CFP)
 <div align="center">
-  <img src="images/retinal.png" alt="Retinal Fundus" width="60%">
+  <img src="images/retinal.jpg" alt="Retinal Fundus" width="60%">
 </div>
 
 ### Optical Coherence Tomography (OCT)
 <div align="center">
-  <img src="images/oct.png" alt="OCT" width="60%">
+  <img src="images/oct.jpg" alt="OCT" width="60%">
 </div>
 
 ### Endoscopy
 <div align="center">
-  <img src="images/endoscopy.png" alt="Endoscopy" width="60%">
+  <img src="images/endoscopy.jpg" alt="Endoscopy" width="60%">
 </div>
 
 </details>
