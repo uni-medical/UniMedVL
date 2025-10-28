@@ -321,18 +321,6 @@ If you use this project in your research or work, please cite it as:
 
 ---
 
-## ⭐ Star History
-
-<a href="https://star-history.com/#uni-medical/UniMedVL&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=uni-medical/UniMedVL&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=uni-medical/UniMedVL&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=uni-medical/UniMedVL&type=Date" />
-  </picture>
-</a>
-
----
-
 ## 🙏 Acknowledgments
 
 We sincerely thank the following projects and their contributors for their invaluable open-source contributions that made this research possible:
