@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 
-from .unimedvl import BagelConfig, Bagel
+from .bagel import BagelConfig, Bagel
 from .qwen2_navit import Qwen2Config, Qwen2Model, Qwen2ForCausalLM
 from .siglip_navit import SiglipVisionConfig, SiglipVisionModel
 
