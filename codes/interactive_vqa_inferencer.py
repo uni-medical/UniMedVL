@@ -15,6 +15,13 @@
 #%% Cell 1: Environment setup and imports
 import os
 import sys
+
+TARGET_GPU_DEVICE = "0"
+os.environ['CUDA_VISIBLE_DEVICES'] = TARGET_GPU_DEVICE
+os.environ['TOKENIZERS_PARALLELISM'] = 'false'
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:512'
+os.environ['CUDA_LAUNCH_BLOCKING'] = '0'
+
 import warnings
 warnings.filterwarnings('ignore')
 
