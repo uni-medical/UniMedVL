@@ -72,19 +72,7 @@ We introduce **UniMedVL**, the unified medical foundation model for seamless mul
 
 UniMedVL follows a workflow-guided three-level framework that mirrors how physicians process medical information:
 
-```mermaid
-flowchart TD
-    A[Observation Level] --> B[Knowledge Level] --> C[Analysis Level]
-
-    A1[UniMed-5M Dataset<br/>5.6M samples<br/>8 imaging modalities] --> A
-    A --> A2[Quality Control<br/>Three-stage verification<br/>Expert validation]
-
-    B1[Progressive Curriculum<br/>Foundation → Instruction → Unified] --> B
-    B --> B2[Cross-modal Knowledge Fusion<br/>Understanding ↔ Generation]
-
-    C1[Unified Architecture<br/>Dual encoders + MOT] --> C
-    C --> C2[Multimodal Outputs<br/>Reports + Images + Annotations]
-```
+![OKA Framework Workflow](images/chartgraph.jpeg)
 
 ### 🎯 Training Strategy
 
