@@ -68,6 +68,7 @@ We introduce **UniMedVL**, the unified medical foundation model for seamless mul
 
 ## 🔬 Methodology
 
+
 ### 📋 OKA Framework: Observation-Knowledge-Analysis
 
 UniMedVL follows a workflow-guided three-level framework that mirrors how physicians process medical information:
