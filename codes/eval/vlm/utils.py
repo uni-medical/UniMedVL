@@ -53,7 +53,6 @@ def _load_model_original(args):
 
     vit_config = SiglipVisionConfig.from_json_file(os.path.join(args.model_path, "vit_config.json"))
     vit_config.rope = False
-    vit_config.num_hidden_layers = vit_config.num_hidden_layers - 1
 
     config = BagelConfig(
         visual_gen=False,
@@ -126,7 +125,6 @@ def _load_model_cpu_optimized(args):
 
     vit_config = SiglipVisionConfig.from_json_file(os.path.join(args.model_path, "vit_config.json"))
     vit_config.rope = False
-    vit_config.num_hidden_layers = vit_config.num_hidden_layers - 1
 
     config = BagelConfig(
         visual_gen=False,
@@ -366,7 +364,6 @@ def _load_model_cpu_optimized0(args):
 
     vit_config = SiglipVisionConfig.from_json_file(os.path.join(args.model_path, "vit_config.json"))
     vit_config.rope = False
-    vit_config.num_hidden_layers = vit_config.num_hidden_layers - 1
 
     config = BagelConfig(
         visual_gen=False,
