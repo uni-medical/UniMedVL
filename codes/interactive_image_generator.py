@@ -216,7 +216,6 @@ class ImageGenerator:
 
         vit_config = SiglipVisionConfig.from_json_file(os.path.join(model_path, "vit_config.json"))
         vit_config.rope = False
-        vit_config.num_hidden_layers = vit_config.num_hidden_layers - 1
 
         # Load VAE
         vae_model, vae_config = load_ae(local_path=os.path.join(model_path, "ae.safetensors"))
