@@ -79,7 +79,6 @@ We introduce **UniMedVL**, the unified medical foundation model for seamless mul
 
 ## 📝 Open-Source Plan
 
-- [x] **📄 Paper & Evaluations** - Research documentation and evaluation results
 - [x] **🖼️ Visualizations** - Result figures and model demonstrations
 - [x] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B parameters)
 - [x] **🔧 Inference Code** - Model loading and inference examples
