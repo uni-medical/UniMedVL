@@ -9,6 +9,9 @@
   <a href="https://huggingface.co/General-Medical-AI/UniMedVL" target="_blank">
     <img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-UniMedVL-ffc107?color=ffc107&logoColor=white" />
   </a>
+  <a href="https://huggingface.co/datasets/General-Medical-AI/UniMed-5M" target="_blank">
+    <img alt="Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-UniMed--5M-ffc107?color=ff7043&logoColor=white" />
+  </a>
 </div>
 
 <div align="center">
@@ -18,11 +21,22 @@
   <a href="https://arxiv.org/abs/2510.15710" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2510.15710-b31b1b.svg" />
   </a>
+  <a href="https://icml.cc/Conferences/2026" target="_blank">
+    <img alt="ICML 2026" src="https://img.shields.io/badge/ICML-2026-8A2BE2.svg" />
+  </a>
+  <a href="./LICENSE" target="_blank">
+    <img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-green.svg" />
+  </a>
 </div>
+
+<p align="center">
+  <b>🎉 Accepted to ICML 2026</b>
+</p>
 
 <p align="center">
   <a href="https://github.com/uni-medical/UniMedVL"><b>🌟 Github</b></a> |
   <a href="https://huggingface.co/General-Medical-AI/UniMedVL"><b>📥 Model Download</b></a> |
+  <a href="https://huggingface.co/datasets/General-Medical-AI/UniMed-5M"><b>📁 Dataset (UniMed-5M, partial)</b></a> |
   <a href="https://arxiv.org/abs/2510.15710"><b>📄 Paper Link</b></a> |
   <a href="https://uni-medical.github.io/UniMedVL_Web/"><b>🌐 Project Page</b></a>
 </p>
@@ -40,6 +54,12 @@
 <p align="center">
  <img src="./images/teaser.jpg" width="95%"/>
 </p>
+
+## 🔥 News
+
+- **[2026-05]** 🎉 UniMedVL accepted to **ICML 2026**!
+- **[2025-10]** 📄 Paper released on [arXiv](https://arxiv.org/abs/2510.15710).
+- **[2025-10]** 💾 Model checkpoints released on [HuggingFace](https://huggingface.co/General-Medical-AI/UniMedVL).
 
 ## 📚 Introduction
 
@@ -279,7 +299,10 @@ Two interactive inference scripts are provided in the `codes/` directory:
 2. **Medical Image Generation** (`interactive_image_generator.py`)
 
 ### Quick Usage
-1. Download the UniMedVL checkpoint 
+1. Download the UniMedVL checkpoint:
+   ```bash
+   huggingface-cli download General-Medical-AI/UniMedVL --local-dir ./checkpoints/UniMedVL
+   ```
 2. Set `model_path` and `ROOT` in the script configuration
 3. Run the script: `python codes/interactive_vqa_inferencer.py` or `python codes/interactive_image_generator.py`
 
