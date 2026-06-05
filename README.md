@@ -56,7 +56,7 @@
 </p>
 
 ## 🔥 News
-
+- **[2026-06]** 📁 **UniMedVL-5M Dataset Released.** The UniMedVL-5M dataset has been released and is available at https://huggingface.co/datasets/General-Medical-AI/UniMedVL-5M. Access is provided through a gated request process. 
 - **[2026-05]** 🎉 UniMedVL accepted to **ICML 2026**!
 - **[2025-10]** 📄 Paper released on [arXiv](https://arxiv.org/abs/2510.15710).
 - **[2025-10]** 💾 Model checkpoints released on [HuggingFace](https://huggingface.co/General-Medical-AI/UniMedVL).
