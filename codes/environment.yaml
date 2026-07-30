@@ -30,4 +30,8 @@ dependencies:
       - python-dateutil==2.9.0post0
       - ipykernel==6.29.5
       - jupyter_client==8.6.3
+      - pyyaml
+      - pyarrow
+      - tensorboard
+      # - decord  # optional, only required for video datasets
       - flash-attn # should be added manually compatible to your torch and python versions

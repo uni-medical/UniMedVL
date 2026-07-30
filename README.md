@@ -36,9 +36,10 @@
 <p align="center">
   <a href="https://github.com/uni-medical/UniMedVL"><b>🌟 Github</b></a> |
   <a href="https://huggingface.co/General-Medical-AI/UniMedVL"><b>📥 Model Download</b></a> |
-  <a href="https://huggingface.co/datasets/General-Medical-AI/UniMed-5M"><b>📁 Dataset (UniMed-5M, partial)</b></a> |
+  <a href="https://huggingface.co/datasets/General-Medical-AI/UniMed-5M"><b>📁 Dataset (UniMed-5M)</b></a> |
   <a href="https://arxiv.org/abs/2510.15710"><b>📄 Paper Link</b></a> |
-  <a href="https://uni-medical.github.io/UniMedVL_Web/"><b>🌐 Project Page</b></a>
+  <a href="https://uni-medical.github.io/UniMedVL_Web/"><b>🌐 Project Page</b></a> |
+  <a href="./TRAINING.md"><b>🏋️ Training Guide</b></a>
 </p>
 
 <h1>
@@ -83,7 +84,7 @@ We introduce **UniMedVL**, the unified medical foundation model for seamless mul
 - [x] **💾 Model Checkpoints** - Pre-trained UniMedVL weights (14B parameters)
 - [x] **🔧 Inference Code** - Model loading and inference examples
 - [x] **📁 UniMedVL-5M Dataset** - Training dataset and Evaluation dataset 
-- [ ] **🏋️ Training Code** - Full training pipeline and configuration files
+- [x] **🏋️ [Training Code](TRAINING.md)** - Example fine-tuning entry with the training data pipeline
 
 
 ## 🔬 Methodology
@@ -305,6 +306,10 @@ Two interactive inference scripts are provided in the `codes/` directory:
    ```
 2. Set `model_path` and `ROOT` in the script configuration
 3. Run the script: `python codes/interactive_vqa_inferencer.py` or `python codes/interactive_image_generator.py`
+
+### Training / Fine-tuning
+
+We provide an example fine-tuning entry to adapt UniMedVL to your own data from the released checkpoint. See **[TRAINING.md](TRAINING.md)** for the full guide.
 
 
 ---
